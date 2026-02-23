@@ -5,23 +5,23 @@ import { Globe, Zap, BarChart3, Shield } from "lucide-react"
 const bullets = [
   {
     icon: Globe,
-    title: "Presenca profissional",
-    description: "Pagina propria que transmite credibilidade e profissionalismo.",
+    title: "Presença profissional",
+    description: "Página própria que transmite credibilidade e profissionalismo.",
   },
   {
     icon: Zap,
-    title: "Alta conversao",
-    description: "Estrutura estrategica focada em transformar visitantes em clientes.",
+    title: "Alta conversão",
+    description: "Estrutura estratégica focada em transformar visitantes em clientes.",
   },
   {
     icon: BarChart3,
-    title: "Resultados mensuraveis",
-    description: "Acompanhe metricas e entenda o comportamento do seu publico.",
+    title: "Resultados mensuráveis",
+    description: "Acompanhe métricas e entenda o comportamento do seu público.",
   },
   {
     icon: Shield,
     title: "Suporte completo",
-    description: "Do planejamento a publicacao, cuidamos de tudo para voce.",
+    description: "Do planejamento a publicação, cuidamos de tudo para você.",
   },
 ]
 
@@ -31,13 +31,13 @@ export function SolucaoSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center" data-animate="fade-up">
           <span className="text-sm font-semibold uppercase tracking-wider text-[#2563EB]">
-            A Solucao
+            A Solução
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Uma pagina profissional que<br className="hidden sm:block" /> trabalha por voce.
+            Uma página profissional que<br className="hidden sm:block" /> trabalha por você.
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Criamos paginas estrategicas e otimizadas que funcionam como o seu melhor vendedor — 24 horas por dia, 7 dias por semana.
+            Criamos páginas estratégicas e otimizadas que funcionam como o seu melhor vendedor — 24 horas por dia, 7 dias por semana.
           </p>
         </div>
 

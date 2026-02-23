@@ -3,16 +3,16 @@
 import { Check } from "lucide-react"
 
 const features = [
-  "Pagina de vendas personalizada",
-  "Copy estrategica e persuasiva",
-  "Otimizacao para dispositivos moveis",
-  "Botao de WhatsApp integrado",
-  "Formulario de contato funcional",
+  "Página de vendas personalizada",
+  "Copy estratégica e persuasiva",
+  "Otimização para dispositivos móveis",
+  "Botão de WhatsApp integrado",
+  "Formulário de contato funcional",
   "Design profissional e moderno",
-  "Hospedagem e dominio orientados",
-  "SEO basico para Google",
-  "Integracao com redes sociais",
-  "Entrega em ate 7 dias uteis",
+  "Hospedagem e domínio orientados",
+  "SEO básico para Google",
+  "Integração com redes sociais",
+  "Entrega em até 7 dias úteis",
 ]
 
 export function RecebeSection() {
@@ -22,13 +22,13 @@ export function RecebeSection() {
         <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-20">
           <div className="flex-1" data-animate="slide-left">
             <span className="text-sm font-semibold uppercase tracking-wider text-[#2563EB]">
-              O que voce recebe
+              O que você recebe
             </span>
             <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Tudo incluso para voce<br className="hidden sm:block" /> vender mais.
+              Tudo incluso para você<br className="hidden sm:block" /> vender mais.
             </h2>
             <p className="mt-4 max-w-lg text-lg leading-relaxed text-muted-foreground">
-              Uma solucao completa. Voce nao precisa se preocupar com nada — entregamos tudo pronto para funcionar.
+              Uma solução completa. Você não precisa se preocupar com nada — entregamos tudo pronto para funcionar.
             </p>
 
             <a

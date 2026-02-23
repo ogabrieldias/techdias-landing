@@ -14,7 +14,7 @@ export function HeroSection() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5">
             <span className="h-2 w-2 rounded-full bg-[#22c55e]" />
             <span className="text-xs font-medium text-muted-foreground">
-              +200 paginas entregues
+              +50 páginas entregues
             </span>
           </div>
 
@@ -25,7 +25,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            Paginas profissionais, estrategicas e otimizadas para transformar visitantes em clientes. Feitas sob medida para o seu negocio.
+            Páginas profissionais, estratégicas e otimizadas para transformar visitantes em clientes. Feitas sob medida para o seu negócio.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -33,14 +33,14 @@ export function HeroSection() {
               href="#planos"
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#2563EB] px-8 py-4 text-base font-semibold text-[#ffffff] transition-all hover:bg-[#1d4ed8] hover:shadow-xl hover:shadow-[#2563EB]/25 hover:-translate-y-0.5"
             >
-              Quero minha pagina
+              Quero minha página
               <ArrowRight className="h-5 w-5" />
             </a>
             <a
               href="#processo"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-card px-8 py-4 text-base font-semibold text-foreground transition-all hover:bg-secondary"
             >
-              Como funciona
+              Como funciona?
             </a>
           </div>
 
@@ -62,7 +62,7 @@ export function HeroSection() {
               ))}
             </div>
             <div>
-              <p className="text-sm font-semibold text-foreground">+200 clientes</p>
+              <p className="text-sm font-semibold text-foreground">+50 clientes</p>
               <p className="text-xs text-muted-foreground">confiam no nosso trabalho</p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-foreground">+147%</p>
-                  <p className="text-[10px] text-muted-foreground">conversoes</p>
+                  <p className="text-[10px] text-muted-foreground">conversões</p>
                 </div>
               </div>
             </div>

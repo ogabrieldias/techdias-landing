@@ -6,22 +6,22 @@ const benefits = [
   {
     icon: Smartphone,
     title: "100% Responsiva",
-    description: "Sua pagina funciona perfeitamente em qualquer dispositivo — celular, tablet ou desktop.",
+    description: "Sua página funciona perfeitamente em qualquer dispositivo — celular, tablet ou desktop.",
   },
   {
     icon: Clock,
-    title: "Entrega rapida",
-    description: "Receba sua pagina pronta em poucos dias, sem atrasos ou enrolacao.",
+    title: "Entrega rápida",
+    description: "Receba sua página pronta em poucos dias, sem atrasos ou enrolação.",
   },
   {
     icon: TrendingUp,
-    title: "Foco em conversao",
+    title: "Foco em conversão",
     description: "Cada elemento e estrategicamente posicionado para gerar mais clientes e vendas.",
   },
   {
     icon: Palette,
     title: "Design exclusivo",
-    description: "Visual unico e personalizado que reflete a identidade do seu negocio.",
+    description: "Visual único e personalizado que reflete a identidade do seu negócio.",
   },
 ]
 
@@ -31,13 +31,13 @@ export function BeneficiosSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center" data-animate="fade-up">
           <span className="text-sm font-semibold uppercase tracking-wider text-[#2563EB]">
-            Beneficios
+            Benefícios
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Por que escolher a gente?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Nao vendemos apenas paginas. Entregamos uma ferramenta de vendas completa para o seu negocio.
+            Não vendemos apenas páginas. Entregamos uma ferramenta de vendas completa para o seu negócio.
           </p>
         </div>
 

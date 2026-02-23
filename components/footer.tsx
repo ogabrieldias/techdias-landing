@@ -5,17 +5,17 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div>
             <a href="#" className="font-heading text-xl font-bold tracking-tight text-foreground">
-              PagePro<span className="text-[#2563EB]">.</span>
+              TechDias<span className="text-[#2563EB]">.</span>
             </a>
             <p className="mt-1 text-sm text-muted-foreground">
-              Presenca digital que converte.
+              Presença digital que converte.
             </p>
           </div>
 
           <nav className="flex flex-wrap items-center justify-center gap-6">
             {[
               { label: "Inicio", href: "#" },
-              { label: "Beneficios", href: "#beneficios" },
+              { label: "Benefícios", href: "#beneficios" },
               { label: "Planos", href: "#planos" },
               { label: "Processo", href: "#processo" },
               { label: "Sobre", href: "#sobre" },
@@ -33,7 +33,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-            {new Date().getFullYear()} PagePro. Todos os direitos reservados.
+            {new Date().getFullYear()} TechDias. Todos os direitos reservados.
           </p>
         </div>
       </div>

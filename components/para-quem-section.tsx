@@ -6,25 +6,25 @@ const niches = [
   {
     icon: Lightbulb,
     title: "Infoprodutores",
-    description: "Venda seus cursos, mentorias e produtos digitais com paginas otimizadas para conversao.",
+    description: "Venda seus cursos, mentorias e produtos digitais com páginas otimizadas para conversão.",
     tag: "Produtos digitais",
   },
   {
     icon: Wrench,
-    title: "Prestadores de servico",
-    description: "Mostre seu portfolio, depoimentos e facilite o contato com novos clientes.",
-    tag: "Servicos",
+    title: "Prestadores de serviço",
+    description: "Mostre seu portfólio, depoimentos e facilite o contato com novos clientes.",
+    tag: "Serviços",
   },
   {
     icon: ShoppingBag,
     title: "Lojas locais",
-    description: "Atraia clientes da sua regiao com uma pagina profissional e visivel no Google.",
-    tag: "Comercio",
+    description: "Atraia clientes da sua região com uma página profissional e visível no Google.",
+    tag: "Comércio",
   },
   {
     icon: Megaphone,
     title: "Profissionais liberais",
-    description: "Advogados, dentistas, coaches — transmita autoridade com uma pagina sob medida.",
+    description: "Advogados, dentistas, coaches — transmita autoridade com uma página sob medida.",
     tag: "Profissionais",
   },
 ]
@@ -35,7 +35,7 @@ export function ParaQuemSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center" data-animate="fade-up">
           <span className="text-sm font-semibold uppercase tracking-wider text-[#2563EB]">
-            Para quem e
+            Para quem é
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Feito para quem quer<br className="hidden sm:block" /> vender mais.

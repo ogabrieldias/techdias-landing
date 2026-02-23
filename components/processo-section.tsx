@@ -7,27 +7,27 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Briefing",
-    description: "Entendemos seu negocio, objetivos e publico-alvo.",
+    description: "Entendemos seu negócio, objetivos e público-alvo.",
   },
   {
     icon: PenTool,
     title: "Design",
-    description: "Criamos o visual exclusivo da sua pagina.",
+    description: "Criamos o visual exclusivo da sua página.",
   },
   {
     icon: Code2,
     title: "Desenvolvimento",
-    description: "Construimos sua pagina com tecnologia moderna.",
+    description: "Construimos sua página com tecnologia moderna.",
   },
   {
     icon: Rocket,
-    title: "Lancamento",
-    description: "Publicamos sua pagina e garantimos que tudo funcione.",
+    title: "Lançamento",
+    description: "Publicamos sua página e garantimos que tudo funcione.",
   },
   {
     icon: Headphones,
     title: "Suporte",
-    description: "Acompanhamento pos-entrega para ajustes.",
+    description: "Acompanhamento pós-entrega para ajustes.",
   },
 ]
 
@@ -89,10 +89,10 @@ export function ProcessoSection() {
             Processo
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Simples, rapido e sem complicacao.
+            Simples, rápido e sem complicação.
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Em 5 etapas voce tera uma pagina profissional funcionando e gerando resultados.
+            Em 5 etapas você terá uma página profissional funcionando e gerando resultados.
           </p>
         </div>
 

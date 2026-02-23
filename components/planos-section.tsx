@@ -9,40 +9,43 @@ const plans = [
     price: "697",
     color: "#22c55e",
     popular: true,
-    description: "Ideal para quem esta comecando e precisa de uma presenca digital profissional.",
+    description: "Ideal para quem está começaando e precisa de uma presença digital profissional.",
     features: [
-      "Pagina profissional",
-      "Botao de WhatsApp",
-      "Apresentacao do negocio",
-      "Publicacao inclusa",
+      "Página profissional",
+      "Botão de WhatsApp",
+      "Apresentação do negócio",
+      "Publicação inclusa",
     ],
+    link: "https://wa.me/5524998558044?text=Ol%C3%A1!%20Estou%20interessado%20no%20plano%20Pro%20Essencial."
   },
   {
     name: "Pro",
     price: "997",
     color: "#f59e0b",
     popular: false,
-    description: "Para quem quer ir alem com copy estrategica e estrutura de conversao.",
+    description: "Para quem quer ir além com copy estratégica e estrutura de conversão.",
     features: [
-      "Pagina completa",
+      "Página completa",
       "Copy persuasiva",
       "Ajustes inclusos",
-      "Estrutura de conversao",
+      "Estrutura de conversão",
     ],
+    link: "https://wa.me/5524998558044?text=Ol%C3%A1!%20Estou%20interessado%20no%20plano%20Pro."
   },
   {
     name: "Pro Max",
     price: "1.497",
     color: "#ef4444",
     popular: false,
-    description: "A solucao premium para quem quer o maximo de resultado e prioridade total.",
+    description: "A solução premium para quem quer o máximo de resultado e prioridade total.",
     features: [
-      "Pagina completa premium",
-      "Copy estrategica avancada",
+      "Página completa premium",
+      "Copy estratégica avançada",
       "Estrutura premium",
       "Prioridade na entrega",
-      "Automacao basica inclusa",
+      "Automação básica inclusa",
     ],
+    link: "https://wa.me/5524998558044?text=Ol%C3%A1!%20Estou%20interessado%20no%20plano%20Pro%20Max."
   },
 ]
 
@@ -57,10 +60,10 @@ export function PlanosSection() {
             Planos
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Escolha o plano ideal<br className="hidden sm:block" /> para o seu negocio.
+            Escolha o plano ideal<br className="hidden sm:block" /> para o seu negócio.
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Todos os planos incluem pagina profissional, suporte e publicacao. Escolha o que melhor se encaixa nas suas necessidades.
+            Todos os planos incluem página profissional, suporte e publicação. Escolha o que melhor se encaixa nas suas necessidades.
           </p>
         </div>
 
@@ -136,7 +139,9 @@ export function PlanosSection() {
 
                 {/* CTA */}
                 <a
-                  href="#"
+                  href={plan.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`mt-8 inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm font-semibold transition-all ${
                     isMiddle
                       ? "bg-[#2563EB] text-[#ffffff] hover:bg-[#1d4ed8] hover:shadow-lg hover:shadow-[#2563EB]/25"
@@ -151,9 +156,9 @@ export function PlanosSection() {
           })}
         </div>
 
-        <p className="mt-8 text-center text-sm text-muted-foreground">
-          Pagamento unico. Sem taxas ocultas. Sem mensalidades.
-        </p>
+        {/* <p className="mt-8 text-center text-sm text-muted-foreground">
+          Pagamento único. Sem taxas ocultas. Sem mensalidades.
+        </p> */}
       </div>
     </section>
   )

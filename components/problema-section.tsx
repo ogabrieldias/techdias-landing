@@ -6,22 +6,22 @@ const problems = [
   {
     icon: UserX,
     title: "Perde clientes",
-    description: "Sem uma pagina profissional, voce perde oportunidades todos os dias para concorrentes que tem presenca online.",
+    description: "Sem uma página profissional, você perde oportunidades todos os dias para concorrentes que tem presença online.",
   },
   {
     icon: ThumbsDown,
     title: "Falta profissionalismo",
-    description: "Perfil no Instagram nao transmite a mesma credibilidade de um site profissional e bem estruturado.",
+    description: "Perfil no Instagram não transmite a mesma credibilidade de um site profissional e bem estruturado.",
   },
   {
     icon: Link2Off,
-    title: "Depende de indicacao",
-    description: "Sem presenca digital, seu negocio depende 100% de indicacoes e nao escala como poderia.",
+    title: "Depende de indicação",
+    description: "Sem presença digital, seu negócio depende 100% de indicações e não escala como poderia.",
   },
   {
     icon: PhoneOff,
-    title: "Contato dificil",
-    description: "Clientes nao encontram suas informacoes facilmente, dificultando o primeiro contato e a venda.",
+    title: "Contato difícil",
+    description: "Clientes não encontram suas informações facilmente, dificultando o primeiro contato e a venda.",
   },
 ]
 
@@ -34,10 +34,10 @@ export function ProblemaSection() {
             O Problema
           </span>
           <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Voce esta perdendo dinheiro<br className="hidden sm:block" /> sem saber.
+            Você está perdendo dinheiro<br className="hidden sm:block" /> sem saber.
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            A maioria dos negocios enfrenta esses problemas diariamente e nem percebe quanto dinheiro esta deixando na mesa.
+            A maioria dos negócios enfrenta esses problemas diariamente e nem percebe quanto dinheiro está deixando na mesa.
           </p>
         </div>
 

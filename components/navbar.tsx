@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react"
 
 const navLinks = [
   { label: "Problema", href: "#problema" },
-  { label: "Beneficios", href: "#beneficios" },
+  { label: "Benefícios", href: "#beneficios" },
   { label: "Planos", href: "#planos" },
   { label: "Processo", href: "#processo" },
   { label: "Sobre", href: "#sobre" },
@@ -30,9 +30,20 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#" className="font-heading text-xl font-bold tracking-tight text-foreground">
-          PagePro<span className="text-[#2563EB]">.</span>
+        
+        <a 
+          href="#" 
+          className="flex items-center gap-2 font-heading text-xl font-bold tracking-tight text-foreground"
+        >
+          TechDias
+          <img 
+            src="/logo.png" 
+            alt="TechDias Logo" 
+            className="h-10 w-10" 
+          />
+          <span className="text-[#2563EB]"></span>
         </a>
+
 
         {/* Desktop */}
         <ul className="hidden items-center gap-8 md:flex">

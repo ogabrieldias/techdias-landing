@@ -7,21 +7,21 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
-  title: 'Crie Sua Presenca Digital | Paginas que Convertem',
-  description: 'Transforme seu negocio com uma pagina profissional que gera resultados. Planos a partir de R$697.',
+  title: 'Crie Sua Presenca Digital | Páginas que Convertem',
+  description: 'Transforme seu negócio com uma página profissional que gera resultados. Planos à partir de R$697.',
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/logo.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/logo.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/logo.png',
         type: 'image/svg+xml',
       },
     ],

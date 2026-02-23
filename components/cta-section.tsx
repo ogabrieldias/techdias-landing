@@ -14,10 +14,10 @@ export function CtaSection() {
 
       <div className="relative mx-auto max-w-4xl px-6 text-center" data-animate="scale-up">
         <h2 className="font-heading text-3xl font-bold tracking-tight text-[#ffffff] sm:text-4xl lg:text-5xl text-balance">
-          Pronto para ter uma pagina que realmente vende?
+          Pronto para ter uma página que realmente vende?
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-[#ffffff]/80">
-          Nao perca mais tempo. Fale conosco agora e transforme sua presenca digital com uma pagina profissional, estrategica e focada em resultados.
+          Não perca mais tempo. Fale conosco agora e transforme sua presenca digital com uma página profissional, estratégica e focada em resultados.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -29,16 +29,16 @@ export function CtaSection() {
             <ArrowRight className="h-5 w-5" />
           </a>
           <a
-            href="#"
+            href="https://api.whatsapp.com/send/?phone=5524998558044&text=Ol%C3%A1%21+Gostaria+de+receber+mais+informa%C3%A7%C3%B5es+sobre+landing+pages&type=phone_number&app_absent=0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnD22R-ixFp-o7NEwb8BdVOvBsfo989zB_-fRisv5dX8ZCUTQXSeAEkUQZXA0_aem_yyqTvUepPBouNkgBHVNCBw" target="blank"
             className="inline-flex items-center gap-2 rounded-xl border border-[#ffffff]/30 px-8 py-4 text-base font-semibold text-[#ffffff] transition-all hover:bg-[#ffffff]/10"
           >
             Falar no WhatsApp
           </a>
         </div>
 
-        <p className="mt-8 text-sm text-[#ffffff]/60">
-          Pagamento unico, sem mensalidades. Entrega em ate 7 dias uteis.
-        </p>
+        {/* <p className="mt-8 text-sm text-[#ffffff]/60">
+          Pagamento único, sem mensalidades. Entrega em ate 7 dias úteis.
+        </p> */}
       </div>
     </section>
   )
