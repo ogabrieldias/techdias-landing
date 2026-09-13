@@ -4,49 +4,95 @@ export type Project = {
   title: string
   eyebrow: string
   description: string
+  category: string
   technologies: string[]
-  liveUrl?: string
-  githubUrl?: string
-  desktopImage: string
-  mobileImage: string
+  url: string
   accent: string
+  coverImage: string
+  mobileImage: string
+  galleryImages: string[]
+  isFullPage: boolean
 }
 
 export const PROJECTS: Project[] = [
   {
-    id: "techdias",
+    id: "yesu",
     index: "01",
-    title: "TechDias",
-    eyebrow: "Estratégia · Web design · Desenvolvimento",
-    description: "Uma presença digital própria para uma agência que transforma negócios locais em marcas memoráveis — com clareza, personalidade e foco em conversão.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "GSAP"],
-    liveUrl: "https://techdias.com.br",
-    desktopImage: "/portfolio-techdias.png",
-    mobileImage: "/portfolio-techdias.png",
-    accent: "#2563eb",
+    title: "YESU",
+    eyebrow: "Landing Page · Web Design · Desenvolvimento",
+    description:
+      "Landing page completa para ministério e comunidade cristã — com design emocional, seções estratégicas e uma experiência que conecta visitantes à missão.",
+    category: "Landing Page",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GSAP"],
+    url: "#",
+    accent: "#8b5cf6",
+    coverImage: "/Yesu/Yesu.png",
+    mobileImage: "/Yesu/Yesu.png",
+    galleryImages: ["/Yesu/Yesu.png"],
+    isFullPage: true,
   },
   {
-    id: "atlas",
+    id: "pet-vida",
     index: "02",
-    title: "Atlas Arquitetura",
-    eyebrow: "Identidade · Direção de arte · Digital",
-    description: "Um portfólio editorial para um estúdio de arquitetura que precisava mostrar processo, matéria e intenção em cada detalhe.",
-    technologies: ["Figma", "Next.js", "Motion", "CMS"],
-    liveUrl: "#",
-    desktopImage: "/portfolio-atlas.png",
-    mobileImage: "/portfolio-atlas.png",
-    accent: "#e86b32",
+    title: "Pet Vida",
+    eyebrow: "Landing Page · Identidade Visual · Conversão",
+    description:
+      "Página profissional para pet shop com foco em conversão, apresentando serviços, diferenciais e facilitando o contato direto com os clientes.",
+    category: "Landing Page",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Responsivo"],
+    url: "#",
+    accent: "#22c55e",
+    coverImage: "/Pet Vida/Landing Pet.png",
+    mobileImage: "/Pet Vida/Landing Pet.png",
+    galleryImages: ["/Pet Vida/Landing Pet.png"],
+    isFullPage: true,
   },
   {
-    id: "orla",
+    id: "saas-agenda",
     index: "03",
-    title: "Orla Hotel",
-    eyebrow: "Posicionamento · E-commerce · Experiência",
-    description: "Uma experiência de reserva mais humana e desejável para um hotel à beira-mar, unindo atmosfera, conteúdo e performance.",
-    technologies: ["UX/UI", "React", "Stripe", "Analytics"],
-    liveUrl: "#",
-    desktopImage: "/portfolio-orla.png",
-    mobileImage: "/portfolio-orla.png",
-    accent: "#e66f61",
+    title: "SAAS Agenda",
+    eyebrow: "Aplicação Web · SaaS · Sistema de Gestão",
+    description:
+      "Sistema completo de agendamento online para profissionais e estabelecimentos — com dashboard, gestão de clientes, profissionais, serviços e calendário integrado.",
+    category: "Aplicação SaaS",
+    technologies: ["React", "TypeScript", "Node.js", "Tailwind CSS", "API REST"],
+    url: "#",
+    accent: "#2563eb",
+    coverImage: "/SAAS Agenda/Dashboard.png",
+    mobileImage: "/SAAS Agenda/Agendamento.png",
+    galleryImages: [
+      "/SAAS Agenda/Dashboard.png",
+      "/SAAS Agenda/Agendamento.png",
+      "/SAAS Agenda/Calendario.png",
+      "/SAAS Agenda/Clientes.png",
+      "/SAAS Agenda/Profissionais.png",
+      "/SAAS Agenda/Serviços.png",
+      "/SAAS Agenda/Cadastro de Membros.png",
+    ],
+    isFullPage: false,
+  },
+  {
+    id: "venda-mais",
+    index: "04",
+    title: "Venda+",
+    eyebrow: "Plataforma · Multi-Segmento · Experiência Digital",
+    description:
+      "Plataforma digital multi-segmento para vendas de veículos, seguros e serviços estéticos — com navegação intuitiva, páginas de categoria e área de contato integrada.",
+    category: "Plataforma Web",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "GSAP", "Responsivo"],
+    url: "#",
+    accent: "#f59e0b",
+    coverImage: "/Venda+/Home.png",
+    mobileImage: "/Venda+/Carros.png",
+    galleryImages: [
+      "/Venda+/Home.png",
+      "/Venda+/Carros.png",
+      "/Venda+/Motos.png",
+      "/Venda+/Estetica.png",
+      "/Venda+/Seguro.png",
+      "/Venda+/Sobre.png",
+      "/Venda+/Contato.png",
+    ],
+    isFullPage: false,
   },
 ]
