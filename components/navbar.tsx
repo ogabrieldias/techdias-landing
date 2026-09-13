@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Planos", href: "#planos" },
   { label: "Processo", href: "#processo" },
   { label: "Sobre", href: "#sobre" },
+  { label: "Portfólio", href: "/portfolio" },
 ]
 
 export function Navbar() {
