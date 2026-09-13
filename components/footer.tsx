@@ -19,6 +19,7 @@ export function Footer() {
               { label: "Planos", href: "#planos" },
               { label: "Processo", href: "#processo" },
               { label: "Sobre", href: "#sobre" },
+              { label: "Portfólio", href: "/portfolio" },
             ].map((link) => (
               <a
                 key={link.href + link.label}
