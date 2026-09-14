@@ -2,10 +2,12 @@ export type Project = {
   id: string
   index: string
   title: string
+  titleColor?: string
   eyebrow: string
   description: string
   category: string
   technologies: string[]
+  icon?: string | string[]
   url: string
   accent: string
   coverImage: string
@@ -19,15 +21,22 @@ export const PROJECTS: Project[] = [
     id: "yesu",
     index: "01",
     title: "YESU",
+    titleColor: "#ff8c00",
     eyebrow: "Landing Page · Web Design · Desenvolvimento",
     description:
-      "Landing page completa para ministério e comunidade cristã — com design emocional, seções estratégicas e uma experiência que conecta visitantes à missão.",
+      "Landing page profissional para o segmento de scooters e veículos autopropelidos, com foco em apresentação dos produtos, benefícios e conversão de clientes.",
     category: "Landing Page",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GSAP"],
-    url: "#",
-    accent: "#8b5cf6",
+    icon: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    ],
+    url: "https://yesu-three.vercel.app",
+    accent: "#ff8c00",
     coverImage: "/Yesu/Yesu.png",
-    mobileImage: "/Yesu/Yesu.png",
+    mobileImage: "/Yesu/Yesu Mobile.png",
     galleryImages: ["/Yesu/Yesu.png"],
     isFullPage: true,
   },
@@ -35,15 +44,22 @@ export const PROJECTS: Project[] = [
     id: "pet-vida",
     index: "02",
     title: "Pet Vida",
+    titleColor: "#0096b8",
     eyebrow: "Landing Page · Identidade Visual · Conversão",
     description:
-      "Página profissional para pet shop com foco em conversão, apresentando serviços, diferenciais e facilitando o contato direto com os clientes.",
+      "Landing page para pet shop, apresentando serviços, diferenciais e informações da empresa de forma moderna, acolhedora e estratégica.",
     category: "Landing Page",
-    technologies: ["Next.js", "React", "Tailwind CSS", "Responsivo"],
-    url: "#",
-    accent: "#22c55e",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsivo"],
+    icon: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    ],
+    url: "https://landing-pet-vida.vercel.app",
+    accent: "#0096b8",
     coverImage: "/Pet Vida/Landing Pet.png",
-    mobileImage: "/Pet Vida/Landing Pet.png",
+    mobileImage: "/Pet Vida/PetVida Mobile.png",
     galleryImages: ["/Pet Vida/Landing Pet.png"],
     isFullPage: true,
   },
@@ -51,15 +67,22 @@ export const PROJECTS: Project[] = [
     id: "saas-agenda",
     index: "03",
     title: "SAAS Agenda",
+    titleColor: "#dca54d",
     eyebrow: "Aplicação Web · SaaS · Sistema de Gestão",
     description:
-      "Sistema completo de agendamento online para profissionais e estabelecimentos — com dashboard, gestão de clientes, profissionais, serviços e calendário integrado.",
+      "Sistema completo de agendamento online, com dashboard profissional, gerenciamento de clientes, serviços, horários, calendário e controle da agenda.",
     category: "Aplicação SaaS",
     technologies: ["React", "TypeScript", "Node.js", "Tailwind CSS", "API REST"],
-    url: "#",
-    accent: "#2563eb",
+    icon: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    ],
+    url: "https://saas-agenda-2026.vercel.app/login",
+    accent: "#dca54d",
     coverImage: "/SAAS Agenda/Dashboard.png",
-    mobileImage: "/SAAS Agenda/Agendamento.png",
+    mobileImage: "/SAAS Agenda/Dashboard-Mobile.png",
     galleryImages: [
       "/SAAS Agenda/Dashboard.png",
       "/SAAS Agenda/Agendamento.png",
@@ -69,21 +92,27 @@ export const PROJECTS: Project[] = [
       "/SAAS Agenda/Serviços.png",
       "/SAAS Agenda/Cadastro de Membros.png",
     ],
-    isFullPage: false,
+    isFullPage: true,
   },
   {
     id: "venda-mais",
     index: "04",
     title: "Venda+",
+    titleColor: "#f0503d",
     eyebrow: "Plataforma · Multi-Segmento · Experiência Digital",
     description:
-      "Plataforma digital multi-segmento para vendas de veículos, seguros e serviços estéticos — com navegação intuitiva, páginas de categoria e área de contato integrada.",
+      "Plataforma digital multissegmento para venda de veículos, seguros e serviços, desenvolvida para conectar clientes a diferentes soluções em um só lugar.",
     category: "Plataforma Web",
     technologies: ["React", "TypeScript", "Tailwind CSS", "GSAP", "Responsivo"],
-    url: "#",
-    accent: "#f59e0b",
+    icon: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    ],
+    url: "https://venda-v2.vercel.app",
+    accent: "#f0503d",
     coverImage: "/Venda+/Home.png",
-    mobileImage: "/Venda+/Carros.png",
+    mobileImage: "/Venda+/Venda+Mobile.png",
     galleryImages: [
       "/Venda+/Home.png",
       "/Venda+/Carros.png",
@@ -93,6 +122,6 @@ export const PROJECTS: Project[] = [
       "/Venda+/Sobre.png",
       "/Venda+/Contato.png",
     ],
-    isFullPage: false,
+    isFullPage: true,
   },
 ]

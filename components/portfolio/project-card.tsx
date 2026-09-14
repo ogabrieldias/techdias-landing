@@ -87,10 +87,14 @@ export function ProjectCard({ project, reversed = false }: ProjectCardProps) {
 
           {/* Title & description */}
           <div className="flex flex-col gap-3">
+            
             <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
               {project.eyebrow}
             </p>
-            <h2 className="font-heading text-4xl font-semibold tracking-[-0.04em] text-foreground sm:text-5xl">
+            <h2
+              className="font-heading text-4xl font-semibold tracking-[-0.04em] text-foreground sm:text-5xl"
+              style={project.titleColor ? { color: project.titleColor } : undefined}
+            >
               {project.title}
             </h2>
             <p className="text-base leading-7 text-muted-foreground">
@@ -99,7 +103,20 @@ export function ProjectCard({ project, reversed = false }: ProjectCardProps) {
           </div>
 
           {/* Technologies */}
+          {project.icon && (
+              <div className="flex items-center gap-3 flex-wrap mb-1">
+                {(Array.isArray(project.icon) ? project.icon : [project.icon]).map((iconSrc, idx) => (
+                  <img
+                    key={idx}
+                    src={iconSrc}
+                    alt={`Ícone ${project.title} ${idx + 1}`}
+                    className="h-8 w-auto max-w-[140px] object-contain"
+                  />
+                ))}
+              </div>
+            )}
           <TechBadges technologies={project.technologies} />
+          
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-3 pt-2">
